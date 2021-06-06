@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "Video Playback Rate - Controller",
+	"version": "1.0",
+	"description": "Video Playback Rate Controller Plugin --- Developed by Batuhan(batuhanozturk.net)",
+	"icons": {
+		"256": "resources/imgs/icon.png",
+		"128": "resources/imgs/icon.png",
+		"64": "resources/imgs/icon.png"
+	},
+
+	"browser_action": {
+		"default_icon": "resources/imgs/icon.png",
+		"default_popup": "resources/popup-page.html",
+		"default_title": "Video Playback Rate - Controller"
+	},
+
+	"background": {
+		"scripts": ["resources/scripts/eventPage.js"],
+		"persistent": false
+	},
+
+	"content_scripts": [{
+		"matches": [ "*://*/*" ],
+		"js": [
+			"resources/libs/jquery-3.6.0.min.js", 
+			"resources/scripts/page-script.js"
+		],
+		"css": ["resources/stylesheets/page-style.css"]
+	}],
+	
+	"permissions": [
+		"tabs"
+	]
+}

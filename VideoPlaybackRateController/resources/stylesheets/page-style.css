@@ -1,0 +1,23 @@
+/*#playbackRateController {
+    background-color: #000;
+    position: absolute;
+    z-index: 123312123;
+    top: 0;
+    left: 0;
+    width: 108px;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+}
+#playbackRateController button.decreaseSpeed {
+float: left;
+}
+#playbackRateController span {
+    font-size: 15px;
+    padding: 0 17px;
+}
+#playbackRateController button.increaseSpeed {
+float: right;
+}*/
