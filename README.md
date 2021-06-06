@@ -1,7 +1,7 @@
 # VideoPlaybackRateController-Browser-Extension
  &nbsp; &nbsp; &nbsp; &nbsp; A browser extension that provide 'Video Speed Controller'
 <br><br>
-This browser extension can change any html5 video speed.
+This browser extension can change any html5 video speed.<br>
 You just need to download extension folder and install to your browser's extension page.
 <br><br>
 Usage: <br>
